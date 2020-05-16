@@ -8,14 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Label",
+"class": "TimeSayer",
+"language": "GDScript",
+"path": "res://Accum.gd"
+} ]
 _global_script_class_icons={
-
+"TimeSayer": "res://icon.png"
 }
 
 [application]
 
 config/name="First Game"
+run/main_scene="res://Hello.tscn"
 config/icon="res://icon.png"
 
 [rendering]
